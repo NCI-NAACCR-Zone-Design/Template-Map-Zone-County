@@ -79,6 +79,7 @@ var SEARCHOPTIONS_SEX = [  // filter values for "sex" field
     { value: 'Female', label: "Female" },
 ];
 var SEARCHOPTIONS_TIME = [  // filter values for "years" field
+    { value: '01yr', label: "1-Year" },
     { value: '05yrs', label: "5-Year: 2015-2019" },
     { value: '10yrs', label: "10-Year: 2010-2019" },
 ];
@@ -155,12 +156,12 @@ var DEMOGRAPHIC_TABLES = [
             { field: 'PctEducLHS', label: "% Did Not Finish High School", format: 'percent', tooltip_id: 'PctEducLHS' },
         ],
     },
-    {
-        title: "Disability Status",
-        rows: [
-            { field: 'PctDisabled', label: "% With a Disability", format: 'percent', tooltip_id: 'PctDisabled' }, // cht comment out because not in data causes error
-        ],
-    },
+    // {
+    //     title: "Disability Status",
+    //     rows: [
+    //         { field: 'PctDisabled', label: "% With a Disability", format: 'percent', tooltip_id: 'PctDisabled' }, // cht comment out because not in data causes error
+    //     ],
+    // },
     {
         title: "Nativity in US",
         rows: [
@@ -218,7 +219,7 @@ var CHOROPLETH_OPTIONS = [
     { field: 'PctNoHealthIns', label: "% Without Health Insurance", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
     { field: 'PctEducBchPlus', label: "% With Bachelors Degree or Higher", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
     { field: 'PctEducLHS', label: "% Did Not Finish High School", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC },
-    { field: 'PctDisabled', label: "% With a Disability", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC }, // cht comment out because not in data causes error
+    // { field: 'PctDisabled', label: "% With a Disability", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC }, // cht comment out because not in data causes error
     { field: 'Pct_forborn', label: "% Foreign Born", format: 'percent', colorramp: CHOROPLETH_STYLE_DEMOGRAPHIC }, // 
 ];
 
@@ -313,7 +314,8 @@ var main = {}
 // main.nationalCancerDataSource = "this is your national cancer data source info"
 // main.aboutBlurb = "This is your about blurb"
 
-main.ctaid = 10 // starting state for site to start up
+// main.ctaid = 10 // starting state for site to start up
+main.ctaid = 34 // starting state for site to start up
 
 $(document).ready(function () {
     // promises, a much nicer way to fetch, fetch, fetch
@@ -778,6 +780,7 @@ function initValidateDemographicDataset () {
     // there should be as many Statewide demographics rows as there are options in SEARCHOPTIONS_TIME; that is, one per time period
     // same goes for Nationwide: 1 per time period
     if (DATA_DEMOGS[0].GeoID) {
+        console.log('DATA_DEMOGS: ', DATA_DEMOGS)
         const hasstatewide = DATA_DEMOGS.filter(function (row) { return row.GeoID == main.ctaid; });
         if (hasstatewide.length != SEARCHOPTIONS_TIME.length) errors.push(`Found ${hasstatewide.length} demographic rows for Statewide`);
 
@@ -1369,6 +1372,10 @@ function performSearch () {
                     // now do the search
                     // params.ctaid = cta.feature.properties.Zone;
                     params.ctaid = cta.feature.properties.ZoneIDOrig;
+                    console.log('cta.feature.properties.ZoneIDOrig.slice(-2): ', cta.feature.properties.ZoneIDOrig.slice(-2))
+                    // if (cta.feature.properties.ZoneIDOrig.slice(-2) === 'za') {
+                    //     params.ctaid =  params.ctaid.slice(0, -2);
+                    //   }
                     params.ctaname = cta.feature.properties.ZoneName.replace(/\_\d+$/, '');  // trim off the end
                     params.latlng = searchlatlng;
                     params.bbox = causedbyaddresschange ? cta.getBounds() : null;
@@ -1597,6 +1604,7 @@ function performSearchPlaces (searchparams) {
         $('<span></span>').text(text).appendTo($block);
     }
     if (cities.length && searchparams.type == "Zone") {
+        console.log('cities.length: ', cities.length)
         const text = cities.join(', ');
         const $block = $('<div></div>').html(`<b>Places: </b>`).appendTo($box);
         $('<span></span>').text(text).appendTo($block);
@@ -2164,6 +2172,7 @@ function performSearchMap (searchparams) {
     MAP.countypolygonfills.eachLayer((layer) => {
         // const ctaid = layer.feature.properties.Zone;
         // const ctaid = layer.feature.properties.ZoneIDOrig;
+        console.log(layer)
         const ctaid = layer.feature.properties.GEOID;
         const score = ctascores[ctaid];
         let style;

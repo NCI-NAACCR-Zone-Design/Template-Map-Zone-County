@@ -1,84 +1,779 @@
 ZoneIDOrig,City
-A9001,North Star
-A9001,Newark
-A9001,Pike Creek Valley
-A9001,Glasgow
-A9002,Dover
-A9002,Smyrna
-A9002,Clayton
-A9002,Cheswold
-A9003,Claymont
-A9004,Dewey Beach
-A9004,South Bethany
-A9004,Fenwick Island
-A9004,Rehoboth Beach
-A9004,Millville
-A9004,Bethany Beach
-A9004,Ocean View
-A9004,Selbyville
-A9004,Dagsboro
-A9004,Long Neck
-A9004,Millsboro
-A9004,Frankford
-A9005,Wilmington
-A9005,Pike Creek
-A9005,North Star
-A9005,Greenville
-A9005,Hockessin
-A9005,Pike Creek Valley
-A9006,Dover
-A9006,Dover Base Housing
-A9006,Rodney Village
-A9006,Woodside East
-A9006,Rising Sun-Lebanon
-A9006,Highland Acres
-A9006,Wyoming
-A9006,Camden
-A9006,Kent Acres
-A9007,Greenwood
-A9007,Delmar
-A9007,Georgetown
-A9007,Blades
-A9007,Seaford
-A9007,Bridgeville
-A9007,Bethel
-A9007,Millsboro
-A9007,Laurel
-A9008,Newark
-A9008,Bear
-A9008,Glasgow
-A9009,Odessa
-A9009,Port Penn
-A9009,Middletown
-A9009,Smyrna
-A9009,Delaware City
-A9009,St. Georges
-A9009,Townsend
-A9010,Wilmington
-A9010,Elsmere
-A9011,Leipsic
-A9011,Houston
-A9011,Dover
-A9011,Felton
-A9011,Bowers
-A9011,Riverview
-A9011,Frederica
-A9011,Smyrna
-A9011,Milford
-A9011,Harrington
-A9011,Camden
-A9012,Wilmington Manor
-A9012,New Castle
-A9012,Newport
-A9012,Bear
-A9013,Wilmington
-A9013,Edgemoor
-A9014,Brookside
-A9015,Lincoln
-A9015,Georgetown
-A9015,Rehoboth Beach
-A9015,Lewes
-A9015,Milton
-A9015,Ellendale
-A9015,Milford
-A9015,Slaughter Beach
+A9001za,South Plainfield
+A9001za,Middlesex
+A9001za,Dunellen
+A9002za,Troy Hills
+A9002za,Mount Tabor
+A9002za,Boonton
+A9002za,Lake Hiawatha
+A9002za,Parsippany
+A9002za,Pine Brook
+A9002za,Rainbow Lakes
+A9003za,Collingswood
+A9003za,Camden
+A9003za,Gloucester City
+A9004za,Atlantic City
+A9004za,Ventnor City
+A9004za,Brigantine
+A9005za,Pluckemin
+A9005za,Pottersville
+A9005za,Far Hills
+A9005za,Bernardsville
+A9005za,Lyons
+A9005za,Basking Ridge
+A9005za,Peapack and Gladstone
+A9005za,Martinsville
+A9005za,Lamington
+A9005za,Liberty Corner
+A9005za,Bedminster
+A9005za,Bridgewater Center
+A9005za,Green Knoll
+A9005za,The Hills
+A9006za,Passaic
+A9006za,Clifton
+A9007za,Passaic
+A9008za,Dumont
+A9008za,Bergenfield
+A9008za,New Milford
+A9009za,Newark
+A9010za,Chatham
+A9010za,Florham Park
+A9010za,Madison
+A9010za,Green Village
+A9011za,McKee City
+A9011za,Bargaintown
+A9011za,Estell Manor
+A9011za,Corbin City
+A9011za,Dorothy
+A9011za,Somers Point
+A9011za,English Creek
+A9011za,Mays Landing
+A9012za,Garfield
+A9012za,Elmwood Park
+A9013za,Rahway
+A9013za,Linden
+A9014za,Elizabeth
+A9015za,Nesco
+A9015za,Mizpah
+A9015za,Newtonville
+A9015za,Folsom
+A9015za,Collings Lakes
+A9015za,Hammonton
+A9015za,Cologne
+A9015za,East Vineland
+A9015za,Milmay
+A9015za,Richland
+A9015za,Germania
+A9015za,Sweetwater
+A9015za,Egg Harbor City
+A9015za,Buena
+A9015za,Elwood
+A9015za,Mays Landing
+A9016za,South Bound Brook
+A9016za,Franklin Park
+A9016za,Weston
+A9016za,Pleasant Plains
+A9016za,Zarephath
+A9016za,Clyde
+A9016za,Voorhees
+A9016za,Somerset
+A9016za,Bound Brook
+A9016za,Six Mile Run
+A9016za,East Millstone
+A9016za,East Franklin
+A9016za,Middlebush
+A9016za,Blackwells Mills
+A9016za,Franklin Center
+A9017za,Lakewood
+A9018za,Jersey City
+A9020za,Bayonne
+A9021za,West New York
+A9022za,Highland Park
+A9022za,Keasbey
+A9022za,New Brunswick
+A9022za,Metuchen
+A9023za,Clearbrook
+A9023za,Rossmoor
+A9023za,Monmouth Junction
+A9023za,Deans
+A9023za,Dayton
+A9023za,Plainsboro Center
+A9023za,Princeton Meadows
+A9023za,Heathcote
+A9023za,Kingston
+A9023za,Cranbury
+A9024za,Leesburg
+A9024za,Dorchester
+A9024za,Delmont
+A9024za,Heislerville
+A9024za,Newport
+A9024za,Milmay
+A9024za,Cumberland-Hesstown
+A9024za,Millville
+A9024za,Mauricetown
+A9024za,Port Norris
+A9024za,Dividing Creek
+A9024za,Fortescue
+A9024za,Port Elizabeth
+A9024za,Vineland
+A9024za,Laurel Lake
+A9025za,Collingswood
+A9025za,Westmont
+A9025za,Golden Triangle
+A9025za,Merchantville
+A9025za,Oaklyn
+A9025za,Cherry Hill Mall
+A9025za,Haddonfield
+A9026za,Sea Girt
+A9026za,West Belmar
+A9026za,Ramtown
+A9026za,Brielle
+A9026za,Manasquan
+A9026za,Spring Lake
+A9026za,Allenwood
+A9026za,Spring Lake Heights
+A9027za,Oceanville
+A9027za,Stockton University
+A9027za,Absecon Highlands
+A9027za,Port Republic
+A9027za,Pomona
+A9027za,Smithville
+A9027za,Absecon
+A9028za,North Caldwell
+A9028za,Essex Fells
+A9028za,Roseland
+A9028za,Caldwell
+A9029za,South Plainfield
+A9029za,Metuchen
+A9029za,Colonia
+A9030za,Trenton
+A9031za,Rutherford
+A9031za,North Arlington
+A9031za,East Rutherford
+A9032za,Yorketown
+A9032za,Robertsville
+A9033za,Paterson
+A9034za,Interlaken
+A9034za,Deal
+A9034za,Tinton Falls
+A9034za,Long Branch
+A9034za,Wanamassa
+A9034za,West Long Branch
+A9034za,Oakhurst
+A9035za,Allentown
+A9035za,Roosevelt
+A9035za,Cream Ridge
+A9036za,East Orange
+A9037za,Lake Hopatcong
+A9037za,Oak Ridge
+A9037za,Lake Telemark
+A9037za,Wharton
+A9037za,Hibernia
+A9037za,Dover
+A9037za,Mount Hope
+A9038za,Cliffwood Beach
+A9038za,Matawan
+A9038za,Keyport
+A9038za,Strathmore
+A9038za,Morganville
+A9039za,Pompton Plains
+A9039za,Towaco
+A9039za,Lincoln Park
+A9039za,Riverdale
+A9039za,Butler
+A9039za,Kinnelon
+A9040za,Oxford
+A9040za,Brookfield
+A9040za,Belvidere
+A9040za,Mount Hermon
+A9040za,Silver Lake
+A9040za,Anderson
+A9040za,Johnsonburg
+A9040za,Allamuchy
+A9040za,Beattystown
+A9040za,Hainesburg
+A9040za,Blairstown
+A9040za,Marksboro
+A9040za,Hackettstown
+A9040za,Bridgeville
+A9040za,Delaware
+A9040za,Mountain Lake
+A9040za,Hope
+A9040za,Buttzville
+A9040za,Vienna
+A9040za,Port Murray
+A9040za,Panther Valley
+A9040za,Great Meadows
+A9041za,Englishtown
+A9041za,East Freehold
+A9041za,West Freehold
+A9041za,Freehold
+A9042za,Linden
+A9042za,Roselle
+A9042za,Roselle Park
+A9043za,Newark
+A9044za,Lakewood
+A9045za,Vista Center
+A9045za,Toms River
+A9046za,Glen Rock
+A9046za,Ridgewood
+A9046za,Fair Lawn
+A9047za,Longport
+A9047za,Margate City
+A9047za,Bargaintown
+A9047za,Northfield
+A9047za,Pleasantville
+A9047za,Linwood
+A9047za,Ventnor City
+A9048za,Cliffside Park
+A9048za,Fairview
+A9048za,Fort Lee
+A9048za,Ridgefield
+A9048za,Edgewater
+A9049za,Grenloch
+A9049za,Turnersville
+A9049za,Williamstown
+A9049za,Victory Lakes
+A9050za,Upper Stewartsville
+A9050za,Lopatcong Overlook
+A9050za,Broadway
+A9050za,Greenwich
+A9050za,Upper Pohatcong
+A9050za,Asbury
+A9050za,New Village
+A9050za,Alpha
+A9050za,Harmony
+A9050za,Hutchinson
+A9050za,Port Colden
+A9050za,Stewartsville
+A9050za,Brass Castle
+A9050za,Washington
+A9050za,Finesville
+A9050za,Phillipsburg
+A9051za,Packanack Lake
+A9051za,Pines Lake
+A9051za,Preakness
+A9051za,Pompton Lakes
+A9052za,Fieldsboro
+A9052za,Bordentown
+A9052za,Roebling
+A9052za,Burlington
+A9052za,Florence
+A9053za,Cranford
+A9053za,Garwood
+A9053za,Mountainside
+A9053za,Westfield
+A9054za,Regency at Monroe
+A9054za,Concordia
+A9054za,Stonebridge
+A9054za,Whittingham
+A9054za,Old Bridge
+A9054za,Spotswood
+A9054za,Forsgate
+A9054za,Jamesburg
+A9054za,Helmetta
+A9055za,Highland Park
+A9055za,New Brunswick
+A9056za,Union City
+A9057za,Vineland
+A9058za,Watchung
+A9058za,Bound Brook
+A9058za,Martinsville
+A9058za,Green Knoll
+A9058za,North Plainfield
+A9059za,Holiday City-Berkeley
+A9059za,Toms River
+A9060za,Llewellyn Park
+A9060za,Pleasantdale
+A9061za,Rocky Hill
+A9061za,Franklin Park
+A9061za,Pleasant Plains
+A9061za,Flagtown
+A9061za,Hillsborough
+A9061za,Neshanic Station
+A9061za,Belle Mead
+A9061za,Ten Mile Run
+A9061za,East Rocky Hill
+A9061za,Neshanic
+A9061za,Harlingen
+A9061za,Blackwells Mills
+A9061za,Griggstown
+A9061za,Blawenburg
+A9061za,Skillman
+A9061za,Kingston
+A9062za,Barclay
+A9062za,Ellisburg
+A9062za,Springdale
+A9062za,Golden Triangle
+A9062za,Cherry Hill Mall
+A9062za,Greentree
+A9062za,Kingston Estates
+A9063za,Lawnside
+A9063za,Stratford
+A9063za,Glendora
+A9063za,Magnolia
+A9063za,Springdale
+A9063za,Barrington
+A9063za,Ashland
+A9063za,Echelon
+A9063za,Somerdale
+A9063za,Haddonfield
+A9064za,Glen Ridge
+A9064za,Upper Montclair
+A9065za,Twin Rivers
+A9065za,Windsor
+A9065za,Robbinsville Center
+A9065za,Princeton Junction
+A9065za,Hightstown
+A9066za,Red Bank
+A9066za,Fair Haven
+A9066za,Monmouth Beach
+A9066za,Long Branch
+A9066za,Little Silver
+A9066za,Rumson
+A9066za,Oceanport
+A9067za,Sewaren
+A9067za,Port Reading
+A9067za,Woodbridge
+A9067za,Perth Amboy
+A9068za,Yardville
+A9068za,Hamilton Square
+A9068za,Groveville
+A9068za,Mercerville
+A9068za,White Horse
+A9069za,Glassboro
+A9069za,Richwood
+A9069za,Mullica Hill
+A9069za,Pitman
+A9070za,Plainfield
+A9071za,Ringwood
+A9071za,Hewitt
+A9071za,Upper Greenwood Lake
+A9071za,Wanaque
+A9071za,Oak Ridge
+A9071za,Macopin
+A9071za,Newfoundland
+A9071za,Bloomingdale
+A9072za,Shrewsbury
+A9072za,Lincroft
+A9072za,Eatontown
+A9072za,Tinton Falls
+A9072za,West Long Branch
+A9072za,Oceanport
+A9072za,Farmingdale
+A9073za,Fanwood
+A9073za,Summit
+A9073za,New Providence
+A9074za,Kenilworth
+A9074za,Summit
+A9074za,Vauxhall
+A9074za,Springfield
+A9075za,Pemberton Heights
+A9075za,Wrightstown
+A9075za,Presidential Lakes Estates
+A9075za,McGuire AFB
+A9075za,Fort Dix
+A9075za,Crosswicks
+A9075za,Browns Mills
+A9075za,Juliustown
+A9075za,Cookstown
+A9075za,Country Lake Estates
+A9075za,Jobstown
+A9075za,Pemberton
+A9076za,The College of New Jersey
+A9076za,Lawrenceville
+A9076za,Mercerville
+A9077za,Secaucus
+A9077za,Jersey City
+A9077za,Union City
+A9078za,South Amboy
+A9078za,Madison Park
+A9078za,Sayreville
+A9078za,Laurence Harbor
+A9079za,Port Morris
+A9079za,Lower Berkshire Valley
+A9079za,Budd Lake
+A9079za,Kenvil
+A9079za,Landing
+A9079za,Flanders
+A9079za,Netcong
+A9079za,Succasunna
+A9079za,Mount Arlington
+A9079za,Ledgewood
+A9080za,Oradell
+A9080za,Haworth
+A9080za,Westwood
+A9080za,Emerson
+A9080za,Paramus
+A9080za,River Edge
+A9081za,Brownville
+A9081za,Sayreville
+A9081za,Old Bridge
+A9081za,South River
+A9082za,Harvey Cedars
+A9082za,Barnegat
+A9082za,Beach Haven
+A9082za,Ship Bottom
+A9082za,Manahawkin
+A9082za,Barnegat Light
+A9082za,Surf City
+A9082za,Tuckerton
+A9082za,Mystic Island
+A9082za,North Beach Haven
+A9082za,Beach Haven West
+A9083za,Pine Hill
+A9083za,Chesilhurst
+A9083za,Sicklerville
+A9084za,Vincentown
+A9084za,Leisuretowne
+A9084za,New Gretna
+A9085za,Newark
+A9086za,Fort Lee
+A9086za,Englewood
+A9086za,Englewood Cliffs
+A9086za,Leonia
+A9086za,Edgewater
+A9087za,Branchville
+A9087za,Vernon Center
+A9087za,Highland Lakes
+A9087za,Vernon Valley
+A9087za,Franklin
+A9087za,Layton
+A9087za,Upper Greenwood Lake
+A9087za,Hamburg
+A9087za,Ross Corner
+A9087za,Sussex
+A9087za,Ogdensburg
+A9088za,Grenloch
+A9088za,Glendora
+A9088za,Pine Hill
+A9088za,Lindenwold
+A9088za,Blackwood
+A9088za,Sicklerville
+A9089za,Bay Head
+A9089za,Mantoloking
+A9089za,Point Pleasant Beach
+A9089za,Point Pleasant
+A9090za,Elizabeth
+A9091za,Trenton
+A9091za,White Horse
+A9092za,Beverly
+A9092za,Burlington
+A9093za,Hopelawn
+A9093za,Keasbey
+A9093za,Menlo Park Terrace
+A9093za,Fords
+A9093za,Iselin
+A9093za,Woodbridge
+A9094za,Brookdale
+A9094za,Watsessing
+A9095za,Cresskill
+A9095za,Norwood
+A9095za,Rockleigh
+A9095za,Demarest
+A9095za,Tenafly
+A9095za,Northvale
+A9095za,Old Tappan
+A9095za,Closter
+A9095za,Harrington Park
+A9095za,Alpine
+A9096za,Riverton
+A9096za,Palmyra
+A9096za,Moorestown-Lenola
+A9097za,Hopewell
+A9097za,Washington Crossing
+A9097za,Princeton Junction
+A9097za,Titusville
+A9097za,Princeton
+A9097za,Pennington
+A9098za,Brooklawn
+A9098za,Audubon
+A9098za,Barrington
+A9098za,Gloucester City
+A9098za,Oaklyn
+A9098za,Haddon Heights
+A9098za,Bellmawr
+A9098za,Runnemede
+A9098za,Mount Ephraim
+A9099za,Highland Park
+A9099za,New Brunswick
+A9099za,Rutgers University-Busch Campus
+A9099za,Middlesex
+A9099za,Rutgers University-Livingston Campus
+A9100za,Paterson
+A9101za,Mount Royal
+A9101za,National Park
+A9101za,Mickleton
+A9101za,Woodbury
+A9101za,Gibbstown
+A9101za,Thorofare
+A9101za,Westville
+A9101za,Paulsboro
+A9102za,Camden
+A9103za,Avenel
+A9103za,Carteret
+A9103za,Port Reading
+A9103za,Colonia
+A9103za,Iselin
+A9103za,Woodbridge
+A9104za,Mendham
+A9104za,Stirling
+A9104za,Brookside
+A9104za,Gillette
+A9104za,New Vernon
+A9104za,Chester
+A9104za,Millington
+A9104za,Green Village
+A9104za,Long Valley
+A9105za,East Orange
+A9106za,Marlton
+A9106za,Ramblewood
+A9106za,Moorestown-Lenola
+A9107za,Sayreville
+A9107za,Milltown
+A9107za,Spotswood
+A9107za,South River
+A9108za,Ramapo College of New Jersey
+A9108za,Allendale
+A9108za,Ramsey
+A9108za,Upper Saddle River
+A9109za,Berlin
+A9109za,West Berlin
+A9109za,Stratford
+A9109za,Gibbsboro
+A9109za,Clementon
+A9109za,Lindenwold
+A9109za,Atco
+A9109za,Laurel Springs
+A9110za,Hillsdale
+A9110za,Waldwick
+A9110za,Montvale
+A9110za,Saddle River
+A9110za,Westwood
+A9110za,Woodcliff Lake
+A9110za,Park Ridge
+A9110za,Ho-Ho-Kus
+A9111za,Hoboken
+A9112za,Bogota
+A9112za,Englewood
+A9112za,Hackensack
+A9113za,Prospect Park
+A9113za,North Haledon
+A9113za,Hawthorne
+A9113za,Haledon
+A9113za,Paterson
+A9114za,Secaucus
+A9115za,Avon-by-the-Sea
+A9115za,Neptune City
+A9115za,Shark River Hills
+A9115za,Bradley Beach
+A9115za,Asbury Park
+A9115za,Belmar
+A9115za,Ocean Grove
+A9116za,Bloomsbury
+A9116za,High Bridge
+A9116za,Annandale
+A9116za,Pottersville
+A9116za,Califon
+A9116za,Stockton
+A9116za,Glen Gardner
+A9116za,Frenchtown
+A9116za,Hampton
+A9116za,Oldwick
+A9116za,Milford
+A9117za,Newark
+A9118za,Whippany
+A9118za,Morris Plains
+A9118za,Cedar Knolls
+A9118za,Morristown
+A9120za,Bayonne
+A9120za,Jersey City
+A9121za,Newark
+A9122za,Marlton
+A9122za,Medford Lakes
+A9124za,Ridgefield
+A9124za,Bogota
+A9124za,Ridgefield Park
+A9124za,Hackensack
+A9124za,Leonia
+A9124za,Palisades Park
+A9125za,New Egypt
+A9125za,Cedar Glen West
+A9125za,Leisure Village West
+A9125za,Crestwood Village
+A9125za,Lakehurst
+A9125za,Pine Lake Park
+A9125za,Cedar Glen Lakes
+A9125za,Leisure Knoll
+A9126za,Jersey City
+A9127za,Harrison
+A9127za,Kearny
+A9128za,Monmouth Junction
+A9128za,Heathcote
+A9128za,Kendall Park
+A9129za,Midland Park
+A9129za,Waldwick
+A9129za,Oakland
+A9129za,Ridgewood
+A9129za,Franklin Lakes
+A9130za,Forked River
+A9130za,Waretown
+A9130za,Ocean Acres
+A9131za,Teterboro
+A9131za,Wood-Ridge
+A9131za,Carlstadt
+A9131za,Moonachie
+A9131za,Hasbrouck Heights
+A9131za,Little Ferry
+A9131za,Wallington
+A9131za,Garfield
+A9132za,Jersey City
+A9133za,Beckett
+A9133za,Harrisonville
+A9133za,Glassboro
+A9133za,Malaga
+A9133za,Clayton
+A9133za,Swedesboro
+A9133za,Franklinville
+A9133za,Newfield
+A9134za,Singac
+A9134za,Great Notch
+A9134za,Totowa
+A9134za,Woodland Park
+A9134za,Clifton
+A9135za,Short Hills
+A9136za,Clifton
+A9136za,Paterson
+A9137za,Woodbury Heights
+A9137za,Wenonah
+A9137za,Sewell
+A9137za,Oak Valley
+A9138za,Rockaway
+A9138za,Mountain Lakes
+A9138za,White Meadow Lake
+A9139za,Belford
+A9139za,Highlands
+A9139za,Leonardo
+A9139za,Fairview
+A9139za,Navesink
+A9139za,Atlantic Highlands
+A9139za,Sea Bright
+A9139za,Port Monmouth
+A9139za,Rumson
+A9140za,North Middletown
+A9140za,Union Beach
+A9140za,Port Monmouth
+A9140za,Keyport
+A9140za,Keansburg
+A9141za,Clinton
+A9141za,Three Bridges
+A9141za,Flemington
+A9141za,Neshanic Station
+A9141za,White House Station
+A9141za,Ringoes
+A9141za,Lebanon
+A9141za,Lambertville
+A9142za,Andover
+A9142za,Stanhope
+A9142za,Crandon Lakes
+A9142za,Lake Mohawk
+A9142za,Hopatcong
+A9142za,Newton
+A9142za,Byram Center
+A9143za,Maywood
+A9143za,Hackensack
+A9143za,Lodi
+A9144za,Manville
+A9144za,Millstone
+A9144za,Hillsborough
+A9144za,Somerville
+A9144za,Bradley Gardens
+A9144za,Martinsville
+A9144za,Finderne
+A9144za,Bridgewater Center
+A9144za,Raritan
+A9145za,Lavallette
+A9145za,Island Heights
+A9145za,Seaside Park
+A9145za,Dover Beaches South
+A9145za,Leisure Village East
+A9145za,Dover Beaches North
+A9145za,Toms River
+A9145za,Seaside Heights
+A9145za,Leisure Village
+A9146za,Seeley
+A9146za,Centre Grove
+A9146za,Greenwich
+A9146za,Marlboro
+A9146za,Sheppards Mill
+A9146za,Carlls Corner
+A9146za,Cedarville
+A9146za,Othello
+A9146za,Shiloh
+A9146za,Roadstown
+A9146za,Sunset Lake
+A9146za,Gouldtown
+A9146za,Deerfield Street
+A9146za,Rosenhayn
+A9146za,Seabrook Farms
+A9146za,Silver Lake
+A9146za,Dutch Neck
+A9146za,Fairton
+A9146za,Bridgeton
+A9146za,West Park
+A9147za,Kean University
+A9147za,Roselle Park
+A9147za,Elizabeth
+A9148za,Pine Ridge at Crestwood
+A9148za,South Toms River
+A9148za,Pine Beach
+A9148za,Crestwood Village
+A9148za,Silver Ridge
+A9148za,Beachwood
+A9148za,Holiday City-Berkeley
+A9148za,Holiday City South
+A9148za,Holiday Heights
+A9148za,Ocean Gate
+B0118za,Seaville
+B0118za,West Wildwood
+B0118za,Strathmere
+B0118za,Tuckahoe
+B0118za,Marshallville
+B0118za,Villas
+B0118za,Stone Harbor
+B0118za,Cape May Point
+B0118za,Wildwood Crest
+B0118za,Cape May
+B0118za,Sea Isle City
+B0118za,Erma
+B0118za,Cape May Court House
+B0118za,Goshen
+B0118za,Marmora
+B0118za,Beesleys Point
+B0118za,Ocean View
+B0118za,North Wildwood
+B0118za,Wildwood
+B0118za,Woodbine
+B0118za,Belleplain
+B0118za,Rio Grande
+B0118za,Whitesboro
+B0118za,Palermo
+B0118za,South Dennis
+B0118za,South Seaville
+B0118za,West Cape May
+B0118za,Ocean City
+B0118za,Avalon
+B0118za,Dennisville
+B0118za,Burleigh
+B0118za,North Cape May
+B0146za,Woodstown
+B0146za,Salem
+B0146za,Penns Grove
+B0146za,Quinton
+B0146za,Olivet
+B0146za,Carneys Point
+B0146za,Elmer
+B0146za,Auburn
+B0146za,Alloway
+B0146za,Pennsville
+B0146za,Pedricktown
